@@ -1,0 +1,31 @@
+{
+  "name": "uzhhorod",
+  "version": "0.1.0",
+  "description": "Uzhhorod ASCII logo ",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/uzhhorod"
+  },
+  "keywords": [
+    "uzhhorod",
+    "ascii",
+    "logo"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltan.kochan@gmail.com",
+    "url": "http://kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/uzhhorod/issues"
+  },
+  "homepage": "https://github.com/zkochan/uzhhorod#readme",
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
+}
