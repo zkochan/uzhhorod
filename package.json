@@ -1,6 +1,6 @@
 {
   "name": "uzhhorod",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Uzhhorod ASCII logo ",
   "files": [
     "index.js",
