@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "description": "Uzhhorod ASCII logo ",
   "files": [
-    "index.js"
+    "index.js",
+    "tonic-example.js"
   ],
+  "scripts": {
+    "prepublish": "tonic-example example/index.js"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/zkochan/uzhhorod"
   },
+  "tonicExampleFilename": "tonic-example.js",
   "keywords": [
     "uzhhorod",
     "ascii",
@@ -27,5 +32,8 @@
   "homepage": "https://github.com/zkochan/uzhhorod#readme",
   "dependencies": {
     "chalk": "^1.1.1"
+  },
+  "devDependencies": {
+    "tonic-example": "^0.1.1"
   }
 }
