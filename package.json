@@ -1,7 +1,10 @@
 {
   "name": "uzhhorod",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Uzhhorod ASCII logo ",
+  "engines": {
+    "node": ">4"
+  },
   "files": [
     "index.js",
     "tonic-example.js"
